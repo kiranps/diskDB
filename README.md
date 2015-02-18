@@ -99,7 +99,7 @@ db.collectioName.save(object);
 Once you have loaded a collection, you can access the collection's methods using the dot notation like
 
 ```js
-db.[collectionName].[methodname]
+db[collectionName].save(object);
 ```
 To save the data, you can use
 ```js
